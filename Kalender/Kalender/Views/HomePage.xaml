@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kalender.HomePage"
+             Title="HomePage">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="kalender.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Kalender picture" />
+            <Label 
+                x:Name="WelcomeLabel"
+                Text="Välkommen in xxxx"
+                FontSize="26" 
+                HorizontalOptions="Center"/>
+
+            <Button
+                x:Name="Calender"
+                Text="Kalender"
+                Clicked="OnClickedCalender"
+                HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="CreateEvent"
+                Text="Skapa en kalender händelse"
+                Clicked="OnClickedCreateEvent"
+                HorizontalOptions="Fill" />
+            
+            <Button
+                x:Name="UserPoints"
+                Text="Dinna Poäng"
+                Clicked="OnClickedPointBalance"
+                HorizontalOptions="Fill" />
+            
+            <Button
+                x:Name="PointStore"
+                Text="Poäng butiken"
+                Clicked="OnClickedPointStore"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

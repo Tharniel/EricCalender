@@ -1,0 +1,89 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Kalender
+build_property.ProjectDir = C:\Users\erick\OneDrive\Programmering\Kalender\Kalender\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/erick/OneDrive/Programmering/Kalender/Kalender/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kalender.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/erick/OneDrive/Programmering/Kalender/Kalender/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kalender.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/erick/OneDrive/Programmering/Kalender/Kalender/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kalender.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/erick/OneDrive/Programmering/Kalender/Kalender/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kalender.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/erick/OneDrive/Programmering/Kalender/Kalender/Views/CalenderPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kalender.Views.CalenderPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CalenderPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CalenderPage.xaml
+
+[C:/Users/erick/OneDrive/Programmering/Kalender/Kalender/Views/CreateEventPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kalender.Views.CreateEventPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CreateEventPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CreateEventPage.xaml
+
+[C:/Users/erick/OneDrive/Programmering/Kalender/Kalender/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kalender.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[C:/Users/erick/OneDrive/Programmering/Kalender/Kalender/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kalender.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/Users/erick/OneDrive/Programmering/Kalender/Kalender/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kalender.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
+
+[C:/Users/erick/OneDrive/Programmering/Kalender/Kalender/Views/PointBalance.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kalender.Views.PointBalance.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PointBalance.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PointBalance.xaml
+
+[C:/Users/erick/OneDrive/Programmering/Kalender/Kalender/Views/PointStore.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kalender.Views.PointStore.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PointStore.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PointStore.xaml
+
+[C:/Users/erick/OneDrive/Programmering/Kalender/Kalender/Views/Registered.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Kalender.Views.Registered.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Registered.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Registered.xaml
