@@ -22,9 +22,5 @@
             await Navigation.PushAsync(new CalenderPage());
         }
     }
-    public static class GlobalSettings
-    {
-        public static string SomeGlobalProperty { get; set; } = "Initial Value";
-        public static string Username { get; set; } = "null";
-    }
+
 }

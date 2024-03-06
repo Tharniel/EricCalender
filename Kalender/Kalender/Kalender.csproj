@@ -68,6 +68,9 @@
 	  <Compile Update="Views\CreateEventPage.xaml.cs">
 	    <DependentUpon>CreateEventPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Views\PointBalancePage.xaml.cs">
+	    <DependentUpon>PointBalancePage.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -83,10 +86,13 @@
 	  <MauiXaml Update="Views\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\PointBalance.xaml">
+	  <MauiXaml Update="Views\PointBalancePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\PointStore.xaml">
+	  <MauiXaml Update="Views\PointStoreDetailsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\PointStorePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Registered.xaml">

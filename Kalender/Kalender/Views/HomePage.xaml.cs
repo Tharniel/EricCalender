@@ -27,7 +27,7 @@ public partial class HomePage : ContentPage
 
     private async void OnClickedPointBalance(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new CreateEventPage());
+        await Navigation.PushAsync(new PointBalancePage());
     }
 
     private async void OnClickedPointStore(object sender, EventArgs e)

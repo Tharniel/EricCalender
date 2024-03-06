@@ -14,7 +14,8 @@ namespace Kalender.Data
 
         internal static MongoClient GetClient()
         {
-            string connectionString = "COnnstring";
+            string connectionString = Environment.GetEnvironmentVariable("EricKalender_ConnString");
+
 
             MongoClientSettings settings = MongoClientSettings.FromUrl(new MongoUrl(connectionString));
             settings.SslSettings = new SslSettings() { EnabledSslProtocols = System.Security.Authentication.SslProtocols.Tls12 };
@@ -24,22 +25,24 @@ namespace Kalender.Data
             return mongoClient;
         }
 
-        public static IMongoCollection<Models.User> UserCollection()
+        internal static IMongoDatabase GetDatabase()
         {
             var client = GetClient();
-
             var database = client.GetDatabase("CalenderDB");
+            return database;
+        }
+
+        public static IMongoCollection<Models.User> UserCollection()
+        {
+            var database = GetDatabase();
 
             IMongoCollection<Models.User> userCollection = database.GetCollection<Models.User>("User");
-
             return userCollection;
 
         }
         public static IMongoCollection<Models.Event> TaskCollection()
         {
-            var client = GetClient();
-
-            var database = client.GetDatabase("CalenderDB");
+            var database = GetDatabase();
 
             var taskCollection = database.GetCollection<Models.Event>("Events");
 
@@ -49,13 +52,22 @@ namespace Kalender.Data
 
         public static async Task<List<Models.Event>> GetEventsFromDB()
         {
-            var client = GetClient();
-            var database = client.GetDatabase("CalenderDB");
-            var taskCollection = database.GetCollection<Models.Event>("Events");
+            var taskCollection = TaskCollection();
             var user = Singletons.Authorized.GetAuthStatus().WhoIsUser();
             var filter = Builders<Models.Event>.Filter.Eq("Username", user);
 
             var result = await taskCollection.FindAsync(filter);
+
+            return await result.ToListAsync();
+        }
+
+        public static async Task<List<Models.User>> GetPointsFromDB()
+        {
+            var userCollection = UserCollection();
+            var user = Singletons.Authorized.GetAuthStatus().WhoIsUser();
+            var filter = Builders<Models.User>.Filter.Eq("Name", user);
+
+            var result = await userCollection.FindAsync(filter);
 
             return await result.ToListAsync();
         }

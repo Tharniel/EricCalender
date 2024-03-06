@@ -13,8 +13,7 @@ namespace Kalender.Data
 
         public LoginAuth()
         {
-            var client = DB.GetClient();
-            var database = client.GetDatabase("CalenderDB");
+            var database = DB.GetDatabase();
             _userCollection = database.GetCollection<Models.User>("User");
         }
 
