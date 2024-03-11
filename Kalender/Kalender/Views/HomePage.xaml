@@ -29,18 +29,6 @@
                 Text="Skapa en kalender händelse"
                 Clicked="OnClickedCreateEvent"
                 HorizontalOptions="Fill" />
-            
-            <Button
-                x:Name="UserPoints"
-                Text="Dinna Poäng"
-                Clicked="OnClickedPointBalance"
-                HorizontalOptions="Fill" />
-            
-            <Button
-                x:Name="PointStore"
-                Text="Poäng butiken"
-                Clicked="OnClickedPointStore"
-                HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

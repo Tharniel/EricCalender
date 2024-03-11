@@ -10,10 +10,6 @@
             Aspect="AspectFit"
             SemanticProperties.Description="Kalender picture" />
             <Label 
-            Text="Welcome to Login"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-            <Label 
             Text="Task: "/>
             <Entry
                 x:Name="MyInputTask"
@@ -27,7 +23,35 @@
             <DatePicker x:Name="MyDatePicker" 
                         Format="yyyy-MM-dd" />
 
-            <Button
+        <Label
+            Text="Upprepas?"/>
+        
+        <CheckBox x:Name="RecurringCheckBox"
+                  CheckedChanged="OnRecurringCheckBoxChecked"/>
+
+        <Picker x:Name="RecurrencePicker"
+                Title="Frekvensväljare"
+                IsVisible="False">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Dagar</x:String>
+                    <x:String>Veckor</x:String>
+                    <x:String>Månader</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+        
+        <Entry x:Name="NumberOfEventsEntry" 
+               Placeholder="Hur många gånger ska den upprepas??"
+               IsVisible="False" 
+               Keyboard="Numeric"/>
+        
+        <Entry x:Name="NumberEntry" 
+               Placeholder="Hur ofta ska den upprepas?"
+               IsVisible="False" 
+               Keyboard="Numeric"/>
+
+        <Button
                      x:Name="Registration"
                      Text="Registration"
                      Clicked="ClickedMakeTask"
