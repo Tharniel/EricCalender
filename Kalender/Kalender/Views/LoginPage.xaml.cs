@@ -12,16 +12,20 @@ public partial class LoginPage : ContentPage
 
     private async void ClickedSignInCheck(object sender, EventArgs e)
     {
+        var users = await DB.GetUserFromDB(MyInputName.Text);
+        var userLocation = users.FirstOrDefault().Location;
+
         var loginAuth = new LoginAuth();
         var username = MyInputName.Text.ToLower();
         var password = MyInputPassword.Text;
+        var location = userLocation;
 
         bool auth = await loginAuth.LoginAuthAsync(username, password);
 
         if (auth == true)
         {
             Singletons.Authorized authStatus = Singletons.Authorized.GetAuthStatus();
-            authStatus.SetUserLoggedIn(true, username);
+            authStatus.SetUserLoggedIn(true, username, location);
             await Navigation.PushAsync(new HomePage());
         }
         else

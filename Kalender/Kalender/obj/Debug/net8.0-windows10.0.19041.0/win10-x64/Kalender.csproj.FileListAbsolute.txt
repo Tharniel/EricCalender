@@ -552,7 +552,6 @@ C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\obj\Debug
 C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png
 C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\earth.scale-100.png
 C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kalender.scale-100.png
-C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pointstack.scale-100.png
 C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Kalender.AssemblyInfoInputs.cache
 C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Kalender.AssemblyInfo.cs

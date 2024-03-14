@@ -205,9 +205,6 @@
     <AppxPackagedFile Include="C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kalender.scale-100.png">
       <PackagePath>kalender.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pointstack.scale-100.png">
-      <PackagePath>pointstack.scale-100.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Kalender.deps.json">
       <PackagePath>Kalender.deps.json</PackagePath>
     </AppxPackagedFile>

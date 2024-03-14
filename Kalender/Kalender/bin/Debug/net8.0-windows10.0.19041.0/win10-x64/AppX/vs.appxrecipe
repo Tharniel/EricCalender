@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-07T14:29:05.652</Modified>
+      <Modified>2024-03-13T09:01:00.150</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-07T14:29:05.441</Modified>
+      <Modified>2024-03-13T09:01:00.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Kalender.runtimeconfig.json">
       <PackagePath>Kalender.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Kalender.dll">
       <PackagePath>Kalender.dll</PackagePath>
-      <Modified>2024-03-07T14:29:03.881</Modified>
+      <Modified>2024-03-13T09:00:59.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Kalender.exe</PackagePath>
-      <Modified>2024-03-07T14:29:03.924</Modified>
+      <Modified>2024-03-13T09:00:59.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -274,13 +274,9 @@
       <PackagePath>kalender.scale-100.png</PackagePath>
       <Modified>2024-02-20T17:00:52.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pointstack.scale-100.png">
-      <PackagePath>pointstack.scale-100.png</PackagePath>
-      <Modified>2024-03-06T10:57:22.952</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erick\OneDrive\Dokument\GitHub\EricCalender\Kalender\Kalender\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Kalender.deps.json">
       <PackagePath>Kalender.deps.json</PackagePath>
-      <Modified>2024-03-07T14:29:05.137</Modified>
+      <Modified>2024-03-12T15:46:31.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erick\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

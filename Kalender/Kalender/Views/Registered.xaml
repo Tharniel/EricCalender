@@ -30,6 +30,12 @@
         x:Name="MyInputEmail"
         Placeholder="Skriv in din email: "/>
         
+        <Label
+        Text="Ange hemstad: "/>
+        <Entry
+        x:Name="MyInputCity"
+        Placeholder="Skriv in hemstad: "/>
+
         <Button
              x:Name="Registration"
              Text="Registration"

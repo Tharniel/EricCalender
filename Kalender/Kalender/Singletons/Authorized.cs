@@ -11,19 +11,22 @@ namespace Kalender.Singletons
         private static readonly Authorized userAuthStatus = new Authorized();
         private bool AuthorizedUser;
         private string Username;
+        private string Location;
         private Authorized()
         {
             AuthorizedUser = false;
             Username = null;
+            Location = null;
         }
         public static Authorized GetAuthStatus()
         {
             return userAuthStatus;
         }
-        public void SetUserLoggedIn(bool isLoggedIn, string username)
+        public void SetUserLoggedIn(bool isLoggedIn, string username, string location)
         {
             AuthorizedUser = isLoggedIn;
             Username = username;
+            Location = location;
         }
         public string WhoIsUser()
         {
@@ -32,6 +35,10 @@ namespace Kalender.Singletons
         public bool IsUserLoggedIn()
         {
             return AuthorizedUser;
+        }
+        public string UserLocation()
+        {
+            return Location;
         }
     }
 }

@@ -29,6 +29,23 @@
                 Text="Skapa en kalender händelse"
                 Clicked="OnClickedCreateEvent"
                 HorizontalOptions="Fill" />
+            <Label 
+                x:Name="TempLabel"
+                Text="Temp = XX"
+                FontSize="22" 
+                HorizontalOptions="Center"/>
+            <Label 
+                x:Name="HumidityLabel"
+                Text="Humidity = XX%"
+                FontSize="22" 
+                HorizontalOptions="Center"/>
+
+            <Label 
+                x:Name="FactsLabel"
+                Text="Fact: "
+                FontSize="16" 
+                HorizontalOptions="Center"/>
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

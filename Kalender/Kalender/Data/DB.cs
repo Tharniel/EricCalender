@@ -32,7 +32,7 @@ namespace Kalender.Data
             return database;
         }
 
-        public static IMongoCollection<Models.User> UserCollection()
+        public static IMongoCollection<Models.User> UserCollection() 
         {
             var database = GetDatabase();
 
@@ -61,10 +61,9 @@ namespace Kalender.Data
             return await result.ToListAsync();
         }
 
-        public static async Task<List<Models.User>> GetPointsFromDB()
+        public static async Task<List<Models.User>> GetUserFromDB(string user)
         {
             var userCollection = UserCollection();
-            var user = Singletons.Authorized.GetAuthStatus().WhoIsUser();
             var filter = Builders<Models.User>.Filter.Eq("Name", user);
 
             var result = await userCollection.FindAsync(filter);

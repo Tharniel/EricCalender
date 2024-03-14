@@ -23,11 +23,13 @@ public partial class Registered : ContentPage
             {
                 Name = MyInputName.Text,
                 Email = MyInputEmail.Text,
-                Password = MyInputPassword.Text
+                Password = MyInputPassword.Text,
+                Location = MyInputCity.Text
             };
             var userCollection = DB.UserCollection();
 
             userCollection.InsertOne(newUser);
+            await Navigation.PushAsync(new LoginPage());
         }
         else
         {
