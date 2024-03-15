@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kalender")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fa7ae722880ada7dbbf3a56ad4d707cec13f8cd6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+eaf6d4c82693352ac44d9e6bc1830f29d0fd0311")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kalender")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kalender")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

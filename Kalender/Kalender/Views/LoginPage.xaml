@@ -10,7 +10,7 @@
             Aspect="AspectFit"
             SemanticProperties.Description="Kalender picture" />
         <Label 
-            Text="Welcome to Login"
+            Text="Välkommen och logga in"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Label 
@@ -26,7 +26,7 @@
 
         <Button
              x:Name="SignIn"
-             Text="Sign In"
+             Text="Logga in"
              Clicked="ClickedSignInCheck"
              HorizontalOptions="Fill"/>
     </VerticalStackLayout>

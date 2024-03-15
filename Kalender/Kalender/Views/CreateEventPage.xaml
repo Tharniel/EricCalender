@@ -10,15 +10,15 @@
             Aspect="AspectFit"
             SemanticProperties.Description="Kalender picture" />
             <Label 
-            Text="Task: "/>
+            Text="Kalenderhändelse: "/>
             <Entry
                 x:Name="MyInputTask"
-                Placeholder="Skriv in Uppgiften: "/>
+                Placeholder="Skriv in en händelse: "/>
             <Label 
-            Text="Description: "/>
+            Text="Beskrivning: "/>
             <Entry
                 x:Name="MyInputDescription"
-                Placeholder="Ange en Description: "/>
+                Placeholder="Ange en beskrivning: "/>
         
             <DatePicker x:Name="MyDatePicker" 
                         Format="yyyy-MM-dd" />
@@ -42,18 +42,18 @@
         </Picker>
         
         <Entry x:Name="NumberOfEventsEntry" 
-               Placeholder="Hur många gånger ska den upprepas??"
+               Placeholder="Hur många gånger ska händelsen upprepas"
                IsVisible="False" 
                Keyboard="Numeric"/>
         
         <Entry x:Name="NumberEntry" 
-               Placeholder="Hur ofta ska den upprepas?"
+               Placeholder="Hur ofta ska händelsen upprepas?"
                IsVisible="False" 
                Keyboard="Numeric"/>
 
         <Button
                      x:Name="Registration"
-                     Text="Registration"
+                     Text="Lägg till kalenderhändelse"
                      Clicked="ClickedMakeTask"
                      HorizontalOptions="Fill"/>
 

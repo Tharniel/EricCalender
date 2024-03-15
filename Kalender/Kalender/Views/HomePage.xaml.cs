@@ -30,7 +30,7 @@ public partial class HomePage : ContentPage
         string facts = await HomePageViewModel.GetDateFact();
         if (facts != null)
         {
-            FactsLabel.Text = "Random fact: " + facts;
+            FactsLabel.Text = "Slumpmässig fakta: " + facts;
         }
     }
 

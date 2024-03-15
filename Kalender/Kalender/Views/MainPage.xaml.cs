@@ -17,10 +17,6 @@
         {
             await Navigation.PushAsync(new Registered());
         }
-        private async void OnClickedCalender(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new CalenderPage());
-        }
     }
 
 }

@@ -14,7 +14,7 @@ namespace Kalender.Data
 
         internal static MongoClient GetClient()
         {
-            string connectionString = Environment.GetEnvironmentVariable("EricKalender_ConnString");
+            string connectionString = @"mongodb+srv://ericklassonlbs:tge5Wpgo5i64Uj@ericcalender.8vwkxv2.mongodb.net/?retryWrites=true&w=majority&appName=EricCalender";
 
 
             MongoClientSettings settings = MongoClientSettings.FromUrl(new MongoUrl(connectionString));

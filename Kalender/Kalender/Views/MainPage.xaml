@@ -19,20 +19,14 @@
 
             <Button
                 x:Name="SignIn"
-                Text="Sign In" 
+                Text="Logga in" 
                 Clicked="OnClickedSignIn"
                 HorizontalOptions="Fill" />
 
             <Button
                 x:Name="Register"
-                Text="Register"
+                Text="Registrering"
                 Clicked="OnClickedRegister"
-                HorizontalOptions="Fill" />
-
-            <Button
-                x:Name="Calender"
-                Text="Calender"
-                Clicked="OnClickedCalender"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>

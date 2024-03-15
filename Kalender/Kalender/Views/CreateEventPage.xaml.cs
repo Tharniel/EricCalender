@@ -61,7 +61,7 @@ public partial class CreateEventPage : ContentPage
         }
         finally
         {
-            Console.WriteLine("wowies");
+            Console.WriteLine("Skickas tillbaka till homepage");
             Navigation.PushAsync(new HomePage());
         }
     }

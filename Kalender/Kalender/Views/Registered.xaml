@@ -10,7 +10,7 @@
     Aspect="AspectFit"
     SemanticProperties.Description="Kalender picture" />
         <Label 
-    Text="Welcome to Registation"
+    Text="Välkommen till registreringen"
     VerticalOptions="Center" 
     HorizontalOptions="Center" />
 
@@ -38,7 +38,7 @@
 
         <Button
              x:Name="Registration"
-             Text="Registration"
+             Text="Skapa konto"
              Clicked="ClickedRegistationCheck"
              HorizontalOptions="Fill"/>
 
